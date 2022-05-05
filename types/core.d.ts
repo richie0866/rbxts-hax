@@ -6,4 +6,5 @@
 /// <reference path="debug.d.ts" />
 /// <reference path="Drawing.d.ts" />
 /// <reference path="environment.d.ts" />
+/// <reference path="filesystem.d.ts" />
 /// <reference path="RobloxScriptSecurity.d.ts" />
