@@ -6,8 +6,4 @@ Remember to focus on compatibility! Every function that is not an alias is not '
 
 ## 🔌 Installation
 
-Install from this repository with:
-
-```
-npm install --save-dev richie0866/rbxts-hax
-```
+No release has been published yet!
