@@ -1,4 +1,5 @@
-/// <reference path="../node_modules/@rbxts/types/include/generated/PluginSecurity.d.ts" />
+/// <reference types="@rbxts/types"/>
+/// <reference types="@rbxts/types/plugin"/>
 /// <reference path="Drawing.d.ts" />
 /// <reference path="RobloxScriptSecurity.d.ts" />
 /// <reference path="WebSocket.d.ts" />
