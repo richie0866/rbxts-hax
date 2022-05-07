@@ -49,7 +49,7 @@ interface WebSocketConstructor {
 	 * socket.OnClose.Connect(() => print("Websocket closed"));
 	 * socket.Send("Hello, world!");
 	 */
-	connect: (this: void, url: string) => WebSocket;
+	connect: (url: string) => WebSocket;
 }
 
 /**

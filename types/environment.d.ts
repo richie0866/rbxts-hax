@@ -208,6 +208,11 @@ declare function sethiddenproperty(instance: Instance, property: string, value: 
  * @param identity The identity to set the thread to.
  */
 declare function setidentity(identity: number): void;
+/**
+ * @alias setidentity
+ * @hidden
+ */
+declare const setthreadidentity: typeof setidentity | undefined;
 
 /**
  * Sets whether a poroperty has the Scriptable tag. Returns the original
