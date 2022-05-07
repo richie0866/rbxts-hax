@@ -20,7 +20,7 @@ declare namespace debug {
 	 * @returns The constant at index `index` in the function or level `fn`.
 	 * @example
 	 * function foo() {
-	 *   print("Hello, world!");
+	 * 	print("Hello, world!");
 	 * }
 	 * debug.getconstant(foo, 1); // print
 	 * debug.getconstant(foo, 2); // "Hello, world!"
