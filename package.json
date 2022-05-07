@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/rbxts-hax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "types/core.d.ts",
   "types": "types/core.d.ts",
