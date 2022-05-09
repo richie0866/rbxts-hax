@@ -1,11 +1,14 @@
 /// <reference path="cache.d.ts" />
 /// <reference path="environment.d.ts" />
+/// <reference path="misc.d.ts" />
 
 // https://x.synapse.to/docs
 
-declare namespace syn {
-	// Aliases
+// Aliases
 
+declare const getsynasset: typeof getcustomasset | undefined;
+
+declare namespace syn {
 	const cache_replace: typeof cache.replace;
 	const cache_invalidate: typeof cache.invalidate;
 	const set_thread_identity: typeof setidentity;
@@ -14,9 +17,11 @@ declare namespace syn {
 	const write_clipboard: typeof setclipboard;
 	const queue_on_teleport: typeof queueonteleport;
 	const request: typeof http_request;
+}
 
-	// Signatures
+// Signatures
 
+declare namespace syn {
 	function protect_gui(object: GuiObject): void;
 	function unprotect_gui(object: GuiObject): void;
 	function is_beta(): boolean;
@@ -34,9 +39,11 @@ declare namespace syn {
 	): ReturnType<T>;
 	function create_secure_function(code: string): Callback;
 	function run_secure_function<T = unknown>(code: string): T;
+}
 
-	// Libraries
+// Libraries
 
+declare namespace syn {
 	namespace crypt {
 		namespace base64 {
 			function encode(data: string): string;

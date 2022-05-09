@@ -1,7 +1,6 @@
 /// <reference types="@rbxts/types"/>
 /// <reference types="@rbxts/types/plugin"/>
 /// <reference path="Drawing.d.ts" />
-/// <reference path="RobloxScriptSecurity.d.ts" />
 /// <reference path="WebSocket.d.ts" />
 /// <reference path="cache.d.ts" />
 /// <reference path="closure.d.ts" />
@@ -14,4 +13,5 @@
 /// <reference path="instance.d.ts" />
 /// <reference path="metatable.d.ts" />
 /// <reference path="misc.d.ts" />
+/// <reference path="roblox.d.ts" />
 /// <reference path="syn.d.ts" />
