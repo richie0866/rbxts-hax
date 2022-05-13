@@ -7,5 +7,5 @@ Remember to focus on compatibility! Functions can be missing in some environment
 ## 🔌 Installation
 
 ```
-npm install --save-dev richie0866/rbxts-hax
+npm install --save-dev github:richie0866/rbxts-hax
 ```
